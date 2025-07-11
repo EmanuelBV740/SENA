@@ -45,6 +45,34 @@ if total_dinero > 100:
 else:
     print (f"el descuento no aplica")
 #septima
+edad = int(input("Ingrese su edad: "))
+if edad >= 18:
+    print("Puede votar.")
+else:
+    print("No puede votar.")
+#octavo
+precio = float(input("Ingrese el precio: "))
+tipo = input("Ingrese tipo de cliente (VIP o normal): ")
+
+if tipo == "vip":
+    precio *= 0.8
+
+print(f"Precio final: ${precio:.2f}")
+#noveno
+num = int(input("Ingrese un número: "))
+if num % 3 == 0 and num % 5 == 0:
+    print("Es múltiplo de 3 y 5.")
+else:
+    print("No es múltiplo de 3 y 5.")
+#decimo
+num = int(input("Ingrese el número a verificar: "))
+div1 = int(input("Ingrese el primer divisor: "))
+div2 = int(input("Ingrese el segundo divisor: "))
+
+if num % div1 == 0 and num % div2 == 0:
+    print(f"{num} es divisible entre {div1} y {div2}.")
+else:
+    print(f"{num} no es divisible entre ambos.")
 
 
 
