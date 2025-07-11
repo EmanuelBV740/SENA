@@ -9,7 +9,7 @@ elif edad >= 65:
 #segunda
 altura = (float(input("dame tu estatura en metros: ")))#iiiiiiii22
 if altura < 1.5: 
-    print (f"estatura baja") 
+    print (f"estatura baja") #####
 elif altura > 1.5 < 1.8:
     print (f"estatura media")
 elif altura > 1.8:
