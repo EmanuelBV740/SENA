@@ -83,7 +83,7 @@ else:
     print("No es divisible entre ambos")
 """11"""
 lista = [3, 7, 15, 8, 2]
-if lista[2] > 10:
+if lista[2] >= 10:
     print (f"Mayor a 10")
 else:
     print ("Menor o igual a 10")
@@ -110,6 +110,18 @@ if ultimo == "Marta":
 else:
     print ("Nombre diferente")
 print (nombres)
+
+if nombres [-1] == "marta":
+    print ("nombre correcto")
+
+
+
+
+
+
+
+
+
 """15"""
 colores = ["rojo", "azul", "verde"]
 if colores[1] == "azul":
@@ -145,7 +157,7 @@ else:
     print ("Coordenada baja")
 
 """20"""
-t1 = (3, 5)
+t1 = (3, 4)
 t2 = (3, 5)
 if t1 == t2:
     print("Tuplas iguales")
