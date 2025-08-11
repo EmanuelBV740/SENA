@@ -1,4 +1,3 @@
-"""1"""
 vocal= input ("dame una vocal en minuscula: ")
 if vocal == "a" or vocal == "e" or vocal == "i" or vocal == "o" or vocal ==  "u":
     mayus=vocal.upper ()
@@ -6,7 +5,7 @@ if vocal == "a" or vocal == "e" or vocal == "i" or vocal == "o" or vocal ==  "u"
 else:
     print (f"no es una vocal ")
 
-"""2"""
+"""1"""
 num = float (input ("dame un numero: "))
 if num < 0:
     print (f"es negativo")
@@ -14,7 +13,7 @@ elif num > 0:
     print (f"es numero es +")
 else:
     print (f"es cero")
-"""3"""
+"""2"""
 num1 = float (input ("dame un numero: "))
 num2 = float (input ("dame un numero: "))
 if num1 < num2:
@@ -23,7 +22,7 @@ elif num1 > num2:
     print (f"{num1} es mayar que {num2}")
 else:
     print (f"es igual")
-"""4"""
+"""3"""
 valor = float (input ("dame un numero: "))
 if valor % 2 :
     print (f"es impar")
@@ -31,7 +30,7 @@ elif valor % 3:
     print (f"es par")
 else:
     print (f"no es un numero")
-"""5"""
+"""4"""
 numero = float (input ("dame un numero: "))
 if numero < 10 and numero >20:
     print (f"no es de la familia")
@@ -39,7 +38,7 @@ elif numero > 10 and numero <20:
     print (f"es de la familia")
 else:
     print (f"no es un numero conocido por mi ")
-"""6"""
+"""5"""
 valor1 = float (input ("dame un numero: "))
 valor2 = float (input ("dame un numero: "))
 valor3 = float (input ("dame un numero: "))
@@ -49,7 +48,7 @@ elif valor2 >= valor3:
     print (f"el mayor es {valor2}")
 else:
     print (f"el mayor es {valor3}")
-"""7"""
+"""6"""
 valor_total = float (input ("dame el valor total: "))
 if valor_total > 100:
     descuento = valor_total * 0.10
@@ -57,7 +56,7 @@ if valor_total > 100:
 else:
     precio_final = valor_total
 print (f"el descuento final es de {precio_final}")
-"""8"""
+"""7"""
 edad = int (input ("dame tu edad actual: "))
 if edad <= 17:
     print(f"no puedes votar eres menor de edad (tu edad es {edad})")
@@ -65,7 +64,7 @@ elif edad >= 18:
     print (f"si puedes votar eres mayor de edad (tienes {edad})")
 else:
     print (f"no exixte esa edad")
-"""9"""
+"""8"""
 precio = int (input ("dame un precio: "))
 cliente = input ("que menbresia eres? (VIP/NORMAL): ").lower()
 if cliente == "vip":
@@ -73,6 +72,12 @@ if cliente == "vip":
     print (F"tu descuento es de {descuento}")
 elif cliente == "normal":
     print (f"no tienes descuento, precio final {precio}")
+"""9"""
+num = int(input("ingresa un número: "))
+if num % 3 == 0 and num % 5 == 0:
+     print("es múltiplo de 3 y 5")
+else:
+    print("no es muliplo de 3 y 5")
 """10"""
 n = 20
 d1 = 2
