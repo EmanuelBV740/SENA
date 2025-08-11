@@ -70,9 +70,9 @@ precio = int (input ("dame un precio: "))
 cliente = input ("que menbresia eres? (VIP/NORMAL): ").lower()
 if cliente == "vip":
     descuento= precio * 0.20
+    print (F"tu descuento es de {descuento}")
 elif cliente == "normal":
     print (f"no tienes descuento, precio final {precio}")
-print (F"tu descuento es de {descuento}")
 """10"""
 n = 20
 d1 = 2
